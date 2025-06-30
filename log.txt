@@ -1,0 +1,20 @@
+2025-06-29 19:23:41,793 [INFO] [adobe_2013] Field match score: 0.50
+2025-06-29 19:23:41,793 [INFO] [adobe_2013] Hash match: YES (0.3)
+2025-06-29 19:23:41,793 [INFO] [adobe_2013] Email domain mismatch: -0.1 penalty
+2025-06-29 19:23:41,794 [INFO] [adobe_2013] Username pattern match: YES
+2025-06-29 19:23:41,794 [INFO] [adobe_2013] TOTAL SCORE: 0.50
+2025-06-29 19:23:41,794 [INFO] [linkedin_2012] Field match score: 0.67
+2025-06-29 19:23:41,794 [INFO] [linkedin_2012] Hash match: YES (0.3)
+2025-06-29 19:23:41,794 [INFO] [linkedin_2012] Email domain mismatch: -0.1 penalty
+2025-06-29 19:23:41,794 [INFO] [linkedin_2012] Username pattern match: YES
+2025-06-29 19:23:41,794 [INFO] [linkedin_2012] TOTAL SCORE: 0.57
+2025-06-29 19:25:49,768 [INFO] [adobe_2013] Field match score: 1.00
+2025-06-29 19:25:49,768 [INFO] [adobe_2013] Hash match: YES (0.3)
+2025-06-29 19:25:49,768 [INFO] [adobe_2013] Email domain mismatch: -0.1 penalty
+2025-06-29 19:25:49,769 [INFO] [adobe_2013] Username pattern match: NO
+2025-06-29 19:25:49,769 [INFO] [adobe_2013] TOTAL SCORE: 0.60
+2025-06-29 19:25:49,769 [INFO] [linkedin_2012] Field match score: 0.67
+2025-06-29 19:25:49,769 [INFO] [linkedin_2012] Hash match: YES (0.3)
+2025-06-29 19:25:49,769 [INFO] [linkedin_2012] Email domain mismatch: -0.1 penalty
+2025-06-29 19:25:49,769 [INFO] [linkedin_2012] Username pattern match: NO
+2025-06-29 19:25:49,769 [INFO] [linkedin_2012] TOTAL SCORE: 0.47

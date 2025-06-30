@@ -1,0 +1,10 @@
+{
+  "fields": ["email", "hashed_password", "hint"],
+  "email_domains": ["@adobe.com"],
+  "hash_type": "SHA1",
+  "username_pattern": null,
+  "match": {
+    "most_similar": null,
+    "confidence": 0.0
+  }
+}
