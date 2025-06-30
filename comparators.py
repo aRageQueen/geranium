@@ -1,8 +1,7 @@
 import json
 import os
-from difflib import SequenceMatcher
 from logger import get_logger
-logger = get_logger("comparator")
+from utils import load_weights
 
 def load_known_fingerprints():
     known = {}
@@ -28,13 +27,7 @@ def compare_fingerprint(fingerprint, known):
 
 
 def similarity_score(fp1, fp2, known_name=""):
-    weights = {
-        "fields": 0.4,
-        "hash_type": 0.3,
-        "email_domains": 0.2,
-        "username_pattern": 0.1
-    }
-
+    weights = load_weights()
     score = 0
 
     # Fields
@@ -75,3 +68,6 @@ def similarity_score(fp1, fp2, known_name=""):
 
     logger.info(f"[{known_name}] TOTAL SCORE: {score:.2f}")
     return round(score, 2)
+
+# logging for real-time breakdown of score
+logger = get_logger("comparator")

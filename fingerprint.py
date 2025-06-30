@@ -16,8 +16,8 @@ def generate_fingerprint(df):
 
         if field_type == "email":
             fingerprint["email_domains"].update(
-                [x.split('@')[-1] for x in sample if "@" in x]
-            )
+            [x.split('@')[-1] for x in sample if "@" in x]
+        )
         elif field_type == "hashed_password":
             fingerprint["hash_type"] = detect_hash_type(sample)
         elif field_type == "username":

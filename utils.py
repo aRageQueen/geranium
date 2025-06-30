@@ -1,4 +1,12 @@
 import re
+import os
+import json
+
+def load_weights(path="weights.json"):
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Weight file not found at {path}")
+    with open(path, "r") as f:
+        return json.load(f)
 
 def is_hex(s):
     return bool(re.fullmatch(r"[0-9a-fA-F]+", s))
